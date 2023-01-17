@@ -15,7 +15,14 @@ fn main() {
                 size: _,
                 ..
             } => {
-                println!("system tray received a left click");
+                let window = app.get_window("main").unwrap();
+
+                if window.is_visible().unwrap() {
+                    window.hide().unwrap();
+                } else {
+                    window.show().unwrap();
+                    window.set_focus().unwrap();
+                }
             }
             SystemTrayEvent::RightClick {
                 position: _,
