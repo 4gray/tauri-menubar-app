@@ -33,7 +33,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "4gray.dev",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -60,10 +60,10 @@
     "windows": [
       {
         "fullscreen": false,
-        "height": 500,
+        "height": 400,
         "resizable": false,
         "title": "menubar",
-        "width": 600,
+        "width": 500,
         "visible": false,
         "hiddenTitle": true,
         "decorations": false,
