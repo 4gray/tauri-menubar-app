@@ -60,10 +60,14 @@
     "windows": [
       {
         "fullscreen": false,
-        "height": 600,
-        "resizable": true,
-        "title": "tauri-menubar",
-        "width": 800
+        "height": 500,
+        "resizable": false,
+        "title": "menubar",
+        "width": 600,
+        "visible": false,
+        "hiddenTitle": true,
+        "decorations": false,
+        "focus": false
       }
     ],
     "systemTray": {
