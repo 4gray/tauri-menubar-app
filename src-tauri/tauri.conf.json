@@ -57,6 +57,7 @@
     "updater": {
       "active": false
     },
+    "macOSPrivateApi": true,
     "windows": [
       {
         "fullscreen": false,
@@ -67,7 +68,10 @@
         "visible": false,
         "hiddenTitle": true,
         "decorations": false,
-        "focus": false
+        "focus": false,
+        "transparent": true,
+        "skipTaskbar": true,
+        "alwaysOnTop": true
       }
     ],
     "systemTray": {
